@@ -114,7 +114,7 @@ This project implements a sophisticated Retrieval-Augmented Generation (RAG) sys
 
 ```bash
 git clone https://github.com/RajdeepDas43/Intelligent-Query-Routing-System.git
-cd rag-architecture
+cd Intelligent-Query-Routing-System
 ```
 
 ### **2. Create a Virtual Environment**
