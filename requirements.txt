@@ -1,0 +1,9 @@
+transformers==4.26.1
+sentence-transformers==2.2.2
+faiss-cpu==1.7.3
+elasticsearch==8.0.0
+torch==1.13.1
+numpy==1.23.5
+openai==1.0.0
+python-dotenv==1.0.0
+scikit-learn==1.1.3
