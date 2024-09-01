@@ -37,6 +37,76 @@ This project implements a sophisticated Retrieval-Augmented Generation (RAG) sys
 ### **6. Feedback and Learning**
 - **Continuous Learning Loop:** Refines the system using user feedback and model retraining.
 - **Data Management:** Stores feedback for future model improvements and error analysis.
+.
+
+### **Flowchart: Retrieval-Augmented Generation (RAG) System**
+
+```plaintext
++------------------+
+| User Query Input |
++------------------+
+        |
+        v
++----------------------+
+| Query Preprocessing  |
+| - Tokenization       |
+| - Entity Recognition |
+| - Spell Check        |
++----------------------+
+        |
+        v
++---------------------------+
+| Query Classification      |
+| - Simple Retrieval        |
+| - Contextual Retrieval    |
+| - General Query           |
+| - Hybrid/Complex Query    |
++---------------------------+
+        |
+        v
++----------------------------------+
+|          Context Manager         |
+| - Retrieve Previous Context      |
+| - Add New Context                |
+| - Generate Contextual Embeddings |
++----------------------------------+
+        |
+        v
++------------------------------+
+|    Document Retriever        |
+| - Search Indexed Documents   |
+| - Relevance Scoring          |
+| - Retrieve Relevant Docs     |
++------------------------------+
+        |
+        v
++--------------------------------------+
+|  Response Generation (OpenAI GPT-4) |
+| - Combine Query and Context         |
+| - Incorporate Retrieved Documents   |
+| - Generate Response                 |
++--------------------------------------+
+        |
+        v
++-----------------------------+
+|  Post-Processing & Output   |
+| - Format Response           |
+| - Validation                |
++-----------------------------+
+        |
+        v
++----------------------+
+| Deliver Final Output |
++----------------------+
+        |
+        v
++----------------------------------+
+|   Continuous Learning Loop       |
+| - Collect User Feedback          |
+| - Update Models/Index            |
+| - Error Analysis & Correction    |
++----------------------------------+
+```
 
 ## **Setup Instructions**
 
